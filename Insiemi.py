@@ -45,7 +45,7 @@ print(insieme)
 
 
 
-#MODO ALTERNATIVO DI RISOLUAZIONE 
+#MODO ALTERNATIVO DI RISOLUZIONE 
 lista1 = (input("Inserisci le parole nella lista: ")).split()
 lista2 = (input("Inserisci le parole nella lista: ")).split()
 
