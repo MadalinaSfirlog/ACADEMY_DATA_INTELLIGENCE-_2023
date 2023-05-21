@@ -75,7 +75,7 @@ print(frase_corretta)
 
 #contare quante volte ogni lettera appare nella frase ed aggiungerlo al dizionario
 for lettera in frase_corretta: 
-    if lettera not in dizionario: 
+    if lettera not in dizionario.keys(): 
         dizionario[lettera] = 1
     else: 
         dizionario[lettera] += 1
