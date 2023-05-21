@@ -26,6 +26,8 @@ print(somma)                                         #10
 
 
 
+
+
 #Creare un menu con 3 possibilità; entrare, visualizzare la lista, uscire. 
 #Se l'utente sceglie uscire l'applicazione il menù si chiude. 
 #Se l'utente sceglie di entrare deve avere la possibilità di aggiungere i numeri inseriti uno alla volta alla lista e mandarla a schermo
@@ -65,6 +67,32 @@ while accensione:
         #opzione inesistente
         print("Errore, l'opzione da te selezionata non esiste")
 
+        
+        
+        
+        
+        
+        
+#Scrivere un programma che prenda una lista di numeri come input e rimuove i duplicati dalla lista,
+#lasciando solo i valori "unici". L'ordine degli elementi nella lista deve rimanere invariato
+
+
+lista = [1, 3, 4, 5, 5, 7, 8, 4, 4, 2]
+nuova_lista = []
+
+for numero in lista: 
+    if numero not in nuova_lista: 
+        nuova_lista.append(numero)
+    else:
+        continue
+        
+
+print(nuova_lista)                        #[1, 3, 4, 5, 7, 8, 2]
+
+
+
+
+        
 
 
 
